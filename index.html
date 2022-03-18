@@ -313,7 +313,7 @@
                                 sound.setBuffer(buffer);
                                 // Устанавлием аудио на автоповтор в зависимости от значения в массиве
                                 if (repeatOptions[i]) {
-                                    sound.setLoop(true);
+                                    sound.setLoop(false);
                                 }
                                 if (patternBarcode[i] === -1) {
                                     patternsSound.set(i, sound);
